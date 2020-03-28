@@ -3,22 +3,15 @@
 ## Project setup
 ```
 npm install
+cd backend/
+go mod tidy
 ```
 
-### Compiles and hot-reloads for development
+## Run
 ```
 npm run serve
+cd backend
+go run cmd/main.go
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Then open a browser on http://localhost:8080
